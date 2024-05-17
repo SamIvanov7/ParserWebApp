@@ -1,16 +1,7 @@
 
 # ParserWebApp
 
-ParserWebApp is a web application designed to parse and display log entries from NASA access logs. The application provides functionalities to start and stop a log parser and view the parsed log entries in a paginated, sortable table.
-
-## Features
-
-- **Log Parsing**: Parse NASA access log files and extract relevant information.
-- **Pagination and Sorting**: View log entries in a paginated and sortable table.
-- **Start/Stop Parser**: Control the log parser directly from the web interface.
-- **Database Integration**: Store parsed log entries in a SQL Server database.
-
-## Getting Started
+ParserWebApp is a web application designed to parse and display log entries from NASA access logs. 
 
 ### Prerequisites
 
@@ -21,7 +12,7 @@ ParserWebApp is a web application designed to parse and display log entries from
 
 1. **Clone the repository:**
     ```bash
-    git clone https://github.com/your-username/ParserWebApp.git
+    git clone https://github.com/SamIvanov7/ParserWebApp.git
     cd ParserWebApp
     ```
 
@@ -46,7 +37,7 @@ ParserWebApp is a web application designed to parse and display log entries from
 
 6. **Navigate to the application:**
 
-    Open your web browser and go to `https://localhost:5001`.
+    Open your web browser and go to `https://localhost:port`.
 
 ### Configuration
 
@@ -77,10 +68,6 @@ Ensure your `appsettings.json` file is configured correctly:
 - **Stop Parser:**
 
     Click the "Stop Parser" button to stop the parser.
-
-- **View Logs:**
-
-    Navigate to the home page to view parsed log entries. Use the sorting options to order the log entries by date or client, and navigate through pages using the pagination controls.
 
 ## Project Structure
 
@@ -121,18 +108,3 @@ Ensure your `appsettings.json` file is configured correctly:
 </ItemGroup>
 ```
 
-## Contributing
-
-Contributions are welcome! Please fork the repository and create a pull request with your changes. Ensure your code follows the project's coding standards and includes appropriate tests.
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
-
-## Contact
-
-For any inquiries or feedback, please contact [your-email@example.com](mailto:your-email@example.com).
-
----
-
-Enjoy using ParserWebApp! If you find this project useful, please star the repository.
